@@ -36,7 +36,15 @@ flowchart TD
     F --> G["Persistence: systemd, SSH key, account, shell files"]
     G --> H["Cron payload rejected by parser"]
 ```
+## Questions I Needed to Answer
 
+- How did the attacker get in?
+- Which account was compromised?
+- What happened after access?
+- Did any data leave the host?
+- How did the attacker try to maintain access?
+- Which persistence methods actually worked?
+  
 ## Investigation Approach
 
 1. **Triage the collection.** I reviewed the live-response categories and prioritized login, process, network, and system artifacts.
