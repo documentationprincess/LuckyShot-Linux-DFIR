@@ -1,6 +1,6 @@
 # LuckyShot: Linux Endpoint Compromise Investigation
 
-> **Publication hold:** This draft contains Hack The Box Sherlock spoilers. 
+> **Reader Beware:** This draft contains Hack The Box Sherlock spoilers. 
 
 ## Executive Summary
 
