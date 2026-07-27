@@ -4,7 +4,9 @@
 
 ## Executive Summary
 
-This project documents a simulated digital forensics and incident response investigation of a compromised Linux workstation. The user reported missing and modified company files. I analyzed live-response output, authentication logs, login records, shell history, file hashes, systemd units, SSH configuration, shell startup files, and cron artifacts to reconstruct the intrusion.
+This project documents my investigation of a simulated Linux workstation compromise. The original report was simple: company files were missing or had been modified. My job was to figure out how someone got into the system, what they did after gaining access, whether any data was stolen, and how they tried to maintain access.
+
+I worked through the available logs and forensic artifacts step by step, using each finding to decide where to look next.
 
 The evidence supports a brute-force/credential-guessing attack against SSH from `192.168.161.198`. After repeated failures against several usernames, the source successfully authenticated as `administrator` at `2025-02-10T19:39:03.232692+02:00`.
 
