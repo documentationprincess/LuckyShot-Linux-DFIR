@@ -1,6 +1,6 @@
 # LuckyShot: Linux Endpoint Compromise Investigation
 
-> **Publication hold:** This draft contains Hack The Box Sherlock spoilers. Confirm that LuckyShot is officially **Retired** - not merely Expired - before making this repository public. See [Publishing Checklist](docs/publishing-checklist.md).
+> **Publication hold:** This draft contains Hack The Box Sherlock spoilers. 
 
 ## Executive Summary
 
